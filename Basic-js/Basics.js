@@ -7,7 +7,6 @@
 //   }
 // }
 
-
 // Log all even numbers from 1 to 20
 
 // for (let index = 1; index < 20; index++) {
@@ -33,4 +32,10 @@
 //   console.log(change, "reverse checking");
 // }
 
-
+// Find the largest number in an array
+let arr = [12, 30, 44, 56, 73, 99];
+for (let i = 0; i < arr.length; i++) {
+  let largestNumber = arr[i];
+  console.log(largestNumber,"large number")
+}
+// console.log(arr, "array");
